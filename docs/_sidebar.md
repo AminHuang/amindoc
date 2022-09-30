@@ -1,24 +1,22 @@
 
 - Android
 
-  - [adb调试.md](Android/adb调试.md)
+  - [adb调试](Android/adb调试.md)
 
   - Gradle构建工具
 
-    - [fat-arr合并构建aar.md](Android/gradle构建工具/fat-arr合并构建aar.md)
+    - [fat-arr合并构建aar](Android/gradle构建工具/fat-arr合并构建aar.md)
 
-  - [java.md](Android/java.md)
+  - [java](Android/java.md)
 
-  - [基本概念.md](Android/基本概念.md)
+  - [基本概念](Android/基本概念.md)
 
-- [README.md](README.md)
-
-- [_sidebar.md](_sidebar.md)
+- [README](README.md)
 
 - Shell
 
-  - [获取路径.md](shell/获取路径.md)
+  - [获取路径](shell/获取路径.md)
 
 - 个人知识库搭建
 
-  - [docsify+githubpage方案.md](个人知识库搭建/docsify+githubpage方案.md)
+  - [docsify+githubpage方案](个人知识库搭建/docsify+githubpage方案.md)

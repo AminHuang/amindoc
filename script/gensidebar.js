@@ -143,16 +143,18 @@ function getFiles (dir) {
         return readdirs(subPath, file, file) //递归读取文件夹
       }
       if (path.extname(file) === '.md') {
-        const path =  subPath.replace(rootDir + '/', '');
+        const filepath =  subPath.replace(rootDir + '/', '');
+        let filename = path.basename(file, '.md') // 文件名
         // console.log(subPath, rootDir, '========', path);
         return { //构造文件数据
-          path: path,
-          name: file,
+          path: filepath,
+          // name: file,
+          name: filename,
           type: 'file',
           deep: mapDeep[folderName] + 1,
         }
       }
-    })
+    }).filter(Boolean)
     return result //返回数据
   }
   filesNameArr.push(readdirs(dir, dir))
@@ -173,10 +175,13 @@ function getTree(files) {
           blankspace += '  '
         }
         // console.log('-' + blankspace + '-', item.deep)
-        if (item.type === 'directory') {
+        if (item.type === 'directory' && item?.children?.length > 0) {
           tree += os.EOL + blankspace + '- ' + toCamelCase(item.title) + os.EOL
         } else if (item.type === 'file') {
-          tree += os.EOL + blankspace + '- [' + item.name + '](' + item.path + ')' + os.EOL
+          if (!ignoreFiles.includes(item.name)) {
+            tree += os.EOL + blankspace + '- [' + item.name + '](' + item.path + ')' + os.EOL
+          }
+          
           // console.log('tree', tree);
         }
         if (item.children) {
