@@ -7,3 +7,17 @@
 cd docs
 docsify  serve .
 ```
+或者
+```
+docsify  serve ./docs
+```
+
+## 生成侧边栏
+官方cli
+`
+docsify generate . 
+`
+自己写的脚本
+`
+./script/gensidebar.sh
+`
