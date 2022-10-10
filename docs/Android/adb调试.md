@@ -1,4 +1,4 @@
-### adb 调试
+## adb 调试
 
 ```Bash
 adb shell am set-debug-app -w com.tencent.wmpf.cli.debugassist:wxa_container0

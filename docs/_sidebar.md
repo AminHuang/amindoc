@@ -9,6 +9,12 @@
 
   - [java](Android/java.md)
 
+  - Kotlin
+
+    - [AtomicBoolean](Android/kotlin/AtomicBoolean.md)
+
+    - [lazy](Android/kotlin/lazy.md)
+
   - [基本概念](Android/基本概念.md)
 
 - [README](README.md)
