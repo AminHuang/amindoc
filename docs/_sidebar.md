@@ -7,6 +7,10 @@
 
     - [fat-arr合并构建aar](Android/gradle构建工具/fat-arr合并构建aar.md)
 
+    - [proguard优化指令](Android/gradle构建工具/proguard优化指令.md)
+
+    - [依赖区别](Android/gradle构建工具/依赖区别.md)
+
   - [java](Android/java.md)
 
   - Kotlin
@@ -22,6 +26,8 @@
 - Shell
 
   - [获取路径](shell/获取路径.md)
+
+- [一些实用工具](一些实用工具.md)
 
 - 个人知识库搭建
 
