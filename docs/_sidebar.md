@@ -1,6 +1,12 @@
 
 - Android
 
+  - AndroidStudio
+
+    - [导出文档](Android/AndroidStudio/导出文档.md)
+
+  - [Android获取系统设备等](Android/Android获取系统设备等.md)
+
   - [adb调试](Android/adb调试.md)
 
   - Gradle构建工具
@@ -11,6 +17,8 @@
 
     - [依赖区别](Android/gradle构建工具/依赖区别.md)
 
+    - [编译区别](Android/gradle构建工具/编译区别.md)
+
   - [java](Android/java.md)
 
   - Kotlin
@@ -19,7 +27,13 @@
 
     - [lazy](Android/kotlin/lazy.md)
 
+  - [okhttp](Android/okhttp.md)
+
   - [基本概念](Android/基本概念.md)
+
+  - 疑难杂症
+
+    - [dialog](Android/疑难杂症/dialog.md)
 
 - [README](README.md)
 
