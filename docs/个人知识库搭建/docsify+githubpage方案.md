@@ -17,3 +17,9 @@
 ![](assets/vscode-paste-image-path.png)
 默认是自动保存的，但你也可以配置为在保存前先修改文件名
 ![](assets/vscode-paste-image-filename.png)
+
+#### 搜索说明
+
+目前docsify的搜索是纯前端搜索，放localstorage，超过5m之后可能会有问题，不过之后再说吧。
+
+原理参考这篇文档[https://juejin.cn/post/6908620673275396104](https://juejin.cn/post/6908620673275396104)

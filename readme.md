@@ -21,3 +21,6 @@ docsify generate .
 `
 ./script/gensidebar.sh
 `
+
+## 地址
+https://aminhuang.github.io/amindoc/#/
