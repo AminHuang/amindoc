@@ -18,6 +18,9 @@
 默认是自动保存的，但你也可以配置为在保存前先修改文件名
 ![](assets/vscode-paste-image-filename.png)
 
+- 保存截图快捷键： `command + alt + v`
+
+
 #### 搜索说明
 
 目前docsify的搜索是纯前端搜索，放localstorage，超过5m之后可能会有问题，不过之后再说吧。
