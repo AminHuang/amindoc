@@ -7,7 +7,7 @@
 
   - [Android获取系统设备等](Android/Android获取系统设备等.md)
 
-  - [adb调试](Android/adb调试.md)
+  - [调试相关](Android/调试相关.md)
 
   - Gradle构建工具
 
